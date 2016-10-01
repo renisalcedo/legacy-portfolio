@@ -8,3 +8,6 @@
 * Fourth: #eee
 
 ### 2) Typography
+
+* Headings: $heading-font
+* Text: $text-font
