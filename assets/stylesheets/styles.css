@@ -43,13 +43,10 @@
 /* --------------- */
 /* Font Variables  */
 /* --------------- */
-body {
-  background-color: #0288D1; }
-
 p {
-  font-family: "open-sans"; }
+  font-family: "nunito"; }
 
 .body-text {
-  font-family: "nunito"; }
+  font-family: "open-sans"; }
 
 /*# sourceMappingURL=main.css.map */

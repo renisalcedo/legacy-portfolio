@@ -1,3 +1,11 @@
 body {
   background-color: $primary-color-dark;
 }
+
+p {
+  font-family: $heading-font;
+}
+
+.body-text {
+  font-family: $body-font;
+}
