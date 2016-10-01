@@ -7,6 +7,8 @@
 * Third and Logo: #F94622
 * Fourth: #eee
 
+![Colors palete](https://github.com/renisalcedo/portfolio/palette.png "Colors palette")
+
 ### 2) Typography
 
 * Headings: Nunito
