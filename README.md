@@ -7,7 +7,7 @@
 * Third and Logo: #F94622
 * Fourth: #eee
 
-![Colors palete](https://github.com/renisalcedo/portfolio/palette.png "Colors palette")
+![Colors palete](https://github.com/renisalcedo/portfolio/blob/master/palette.png "Colors palette")
 
 ### 2) Typography
 
