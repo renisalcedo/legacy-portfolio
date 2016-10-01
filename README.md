@@ -11,18 +11,18 @@
 
 * Headings: Nunito
 
-1. $heading-font
+  1. $heading-font
 
-  1. light
-  1. regular
-  1. bold
+    1. light
+    1. regular
+    1. bold
 
 * Body: Open-Sans
 
-1. $body-font
+  1. $body-font
 
-  1. light
-  2. regular
-  3. italic
-  4. bolditalic
-  5. bold
+    1. light
+    2. regular
+    3. italic
+    4. bolditalic
+    5. bold
