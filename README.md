@@ -1,5 +1,5 @@
 #Reynaldo Salcedo
-##Links
+##Documentation
 ### 1) Colors
 * Primary Color: #40B3E5
 * Secondary Color: #FADA2D
