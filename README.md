@@ -2,12 +2,16 @@
 ##Documentation
 ### 1) Colors
 
-* Primary Color: #40B3E5
-* Secondary Color: #FADA2D
-* Third and Logo: #F94622
-* Fourth: #eee
-
 ![Colors palete](https://github.com/renisalcedo/portfolio/blob/master/palette.png "Colors palette")
+
+* $primary-color-dark
+* $primary-color
+* $primary-color-light
+* $primary-color-text
+* $accent-color
+* $primary-text-color
+* $secondary-text-color
+* $divider-color
 
 ### 2) Typography
 
