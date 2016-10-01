@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;AAAA,IAAK;EACH,gBAAgB,ECDG,OAAO",
+"sources": ["partials/_header.scss","modules/_colors.scss"],
+"names": [],
+"file": "main.css"
+}
