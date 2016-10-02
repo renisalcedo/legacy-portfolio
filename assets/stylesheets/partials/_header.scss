@@ -1,11 +1,7 @@
-body {
-  background-color: $primary-color-dark;
-}
-
-p {
-  font-family: $heading-font;
-}
-
-.body-text {
-  font-family: $body-font;
+header {
+  background: $primary-color; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, $primary-color, $primary-color-dark);
+  background: linear-gradient(to left, $primary-color, $primary-color-dark);
+  background-attachment: fixed;
+  height: 100vh;
 }
