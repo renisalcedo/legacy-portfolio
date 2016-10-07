@@ -51,11 +51,11 @@
 
 html {
   background-color: #0288D1;
-  color: #757575;
-  font-family: "nunito";
   font-weight: 300;
   font-size: 62.5%;
   line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility; }
 
 img {
@@ -63,6 +63,13 @@ img {
   height: auto;
   border: 0;
   box-sizing: content-box; }
+
+body {
+  color: #757575;
+  vertical-align: baseline;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
 
 table {
   border-collapse: collapse;
@@ -112,6 +119,33 @@ h2 {
 h3 {
   font-size: 135%;
   margin-bottom: 14px; }
+
+/* --------------------------------- */
+/*          FORM DEFINITIONS         */
+/* --------------------------------- */
+a, button {
+  color: inherit;
+  transition: .3s; }
+
+a {
+  text-decoration: none;
+  background-color: transparent; }
+
+button {
+  overflow: visible;
+  border: 0;
+  font: inherit;
+  -webkit-font-smoothing: inherit;
+  letter-spacing: inherit;
+  background: none;
+  cursor: pointer; }
+
+::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+:focus {
+  outline: 0; }
 
 header {
   background: #03A9F4;
