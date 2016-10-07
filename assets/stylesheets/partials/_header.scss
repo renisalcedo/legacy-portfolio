@@ -1,5 +1,6 @@
 header {
   background: $primary-color; /* fallback for old browsers */
+  text-align: center;
   background: -webkit-linear-gradient(to left, $primary-color, $primary-color-dark);
   background: linear-gradient(to left, $primary-color, $primary-color-dark);
   background-attachment: fixed;
