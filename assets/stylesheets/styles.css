@@ -145,4 +145,12 @@ header {
   background-attachment: fixed;
   height: 100vh; }
 
+.mast-head ul {
+  position: absolute;
+  bottom: 0; }
+
+.mast-head li {
+  text-transform: uppercase;
+  font-size: 155%; }
+
 /*# sourceMappingURL=styles.css.map */
