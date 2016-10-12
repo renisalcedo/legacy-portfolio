@@ -152,9 +152,13 @@ header {
   position: absolute;
   bottom: 0; }
 
-nav .logo {
-  padding: 0;
-  border: 0; }
+.mast-head .logo {
+  margin-top: 15px; }
+
+.mast-head nav .logo {
+  margin: 0;
+  width: 50%;
+  display: inline; }
 
 .mast-head li {
   text-transform: uppercase;
