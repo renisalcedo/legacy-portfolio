@@ -136,6 +136,9 @@ h3 {
   font-size: 135%;
   margin-bottom: 14px; }
 
+/* ---------- */
+/* - HEADER - */
+/* ---------- */
 header {
   background: #03A9F4;
   /* fallback for old browsers */
@@ -156,12 +159,31 @@ header {
   margin-top: 15px; }
 
 .mast-head nav .logo {
+  display: none; }
+
+.active-logo {
   margin: 0;
   width: 50%;
   display: inline; }
 
-.mast-head li {
+.mast-head li a {
+  text-decoration: none;
   text-transform: uppercase;
-  font-size: 155%; }
+  font-size: 155%;
+  transition: border-bottom .2s, color .2s; }
+
+/* --------- */
+/* - LINKS - */
+/* --------- */
+a:link,
+a:visited {
+  color: #555;
+  transition: color .2s, border-bottom .2s; }
+
+a:hover,
+a:active,
+.selected {
+  color: #FFFFFF;
+  border-bottom: 2px solid #FFFFFF; }
 
 /*# sourceMappingURL=styles.css.map */
