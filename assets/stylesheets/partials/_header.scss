@@ -7,9 +7,14 @@ header {
   height: 100vh;
 }
 
+.mast-head {
+  position: relative;
+}
 .mast-head ul{
   position: absolute;
   bottom: 0;
+}
+nav .logo {
 }
 .mast-head li {
   text-transform: uppercase;

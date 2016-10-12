@@ -145,9 +145,16 @@ header {
   background-attachment: fixed;
   height: 100vh; }
 
+.mast-head {
+  position: relative; }
+
 .mast-head ul {
   position: absolute;
   bottom: 0; }
+
+nav .logo {
+  padding: 0;
+  border: 0; }
 
 .mast-head li {
   text-transform: uppercase;
