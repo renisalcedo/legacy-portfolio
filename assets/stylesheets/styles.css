@@ -142,13 +142,15 @@ h3 {
 header {
   background: #03A9F4;
   /* fallback for old browsers */
+  text-align: center;
   background: -webkit-linear-gradient(to left, #03A9F4, #0288D1);
   background: linear-gradient(to left, #03A9F4, #0288D1);
   background-attachment: fixed;
   height: 100vh; }
 
 h1 {
-  margin-top: 40px; }
+  margin-top: 40px;
+  text-shadow: 1px 1px #FFEB3B; }
 
 h2.i-am {
   margin-top: 12%; }
@@ -170,6 +172,9 @@ h2.i-am {
 /* ---------- */
 /* -- NAV --- */
 /* ---------- */
+.sub-head {
+  padding-right: 8.5em; }
+
 .main-nav {
   position: absolute;
   bottom: 0; }

@@ -3,6 +3,7 @@
 /* ---------- */
 header {
   background: $primary-color; /* fallback for old browsers */
+  text-align: center;
   background: -webkit-linear-gradient(to left, $primary-color, $primary-color-dark);
   background: linear-gradient(to left, $primary-color, $primary-color-dark);
   background-attachment: fixed;
@@ -11,6 +12,7 @@ header {
 
 h1 {
   margin-top: 40px;
+  text-shadow: 1px 1px $accent-color;
 }
 
 h2.i-am {
@@ -37,6 +39,9 @@ h2.i-am {
 /* ---------- */
 /* -- NAV --- */
 /* ---------- */
+.sub-head {
+  padding-right: 8.5em;
+}
 .main-nav {
   position: absolute;
   bottom: 0;
