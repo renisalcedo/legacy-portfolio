@@ -202,4 +202,14 @@ nav.main-nav {
   color: #FFFFFF;
   border-bottom: 2px solid #FFFFFF; }
 
+/* ------------------ */
+/* - Sidebar-button - */
+/* ------------------ */
+.btn.btn-side {
+  color: #212121;
+  font-size: 100%;
+  background-color: #FFEB3B;
+  position: absolute;
+  right: 0; }
+
 /*# sourceMappingURL=styles.css.map */

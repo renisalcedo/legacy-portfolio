@@ -71,3 +71,14 @@ nav.main-nav {
   color: $primary-color-text;
   border-bottom: 2px solid $primary-color-text;
 }
+
+/* ------------------ */
+/* - Sidebar-button - */
+/* ------------------ */
+.btn.btn-side {
+  color: $primary-text-color;
+  font-size: 100%;
+  background-color: $accent-color;
+  position: absolute;
+  right: 0;
+}
