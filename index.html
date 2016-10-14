@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="assets/stylesheets/styles.css" />
   </head>
   <body>
+    <!-- HEADER -->
     <header class="col-lg-10 mast-head">
       <div class="container">
         <div class="sub-head">
@@ -31,9 +32,20 @@
         </nav>
       </div>
     </header>
+    <!-- SIDEBAR -->
     <aside class="col-lg-2">
       <h2>Contact</h2>
       <form method="post">
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname" />
+
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname" />
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="8" cols="30"></textarea>
+
+        <input class="btn btn-side-submit" type="submit" name="submit" id="submit" value="Send" />
       </form>
     </aside>
   </body>
