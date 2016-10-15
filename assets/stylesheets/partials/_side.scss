@@ -1,0 +1,27 @@
+aside {
+  background-color: $accent-color;
+  height: 100vh;
+  text-align: center;
+}
+
+aside > h2 {
+  font-weight: bold;
+}
+
+.sidebar label,
+.sidebar .btn-side-submit {
+  color: $secondary-text-color;
+  font-size: 150%;
+  margin-top: 70px;
+  font-weight: bold;
+}
+
+.sidebar .btn-side-submit {
+  background-color: $primary-color-text;
+  width: 55%;
+}
+
+.sidebar input[type="text"] {
+  width: 80%;
+  height: 2em;
+}

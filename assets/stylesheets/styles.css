@@ -206,10 +206,33 @@ nav.main-nav {
 /* - Sidebar-button - */
 /* ------------------ */
 .btn.btn-side {
-  color: #212121;
+  color: #555;
   font-size: 100%;
   background-color: #FFEB3B;
   position: absolute;
   right: 0; }
+
+aside {
+  background-color: #FFEB3B;
+  height: 100vh;
+  text-align: center; }
+
+aside > h2 {
+  font-weight: bold; }
+
+.sidebar label,
+.sidebar .btn-side-submit {
+  color: #555;
+  font-size: 150%;
+  margin-top: 70px;
+  font-weight: bold; }
+
+.sidebar .btn-side-submit {
+  background-color: #FFFFFF;
+  width: 55%; }
+
+.sidebar input[type="text"] {
+  width: 80%;
+  height: 2em; }
 
 /*# sourceMappingURL=styles.css.map */
