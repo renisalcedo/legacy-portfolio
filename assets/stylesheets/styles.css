@@ -156,6 +156,12 @@ h1 {
 h2.i-am {
   margin-top: 12%; }
 
+.attr {
+  font-size: 120%;
+  font-family: "open-sans";
+  color: #FFEB3B;
+  font-weight: bold; }
+
 /* ---------- */
 /* -- LOGO -- */
 /* ---------- */
