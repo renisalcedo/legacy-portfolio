@@ -24,4 +24,12 @@ aside > h2 {
 .sidebar input[type="text"] {
   width: 80%;
   height: 2em;
+  text-align: center;
+}
+
+.sidebar input[type="text"],
+.sidebar textarea {
+  font-family: $body-font;
+  font-size: 120%;
+  padding: 15px;
 }
