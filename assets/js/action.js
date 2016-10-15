@@ -29,5 +29,5 @@ $(function() {
       i = 0;
     }
     attr.text(qualities[i]);
-  }, 2000);
+  }, 1500);
 });
