@@ -216,7 +216,8 @@ nav.main-nav {
 aside {
   background-color: #FFEB3B;
   height: 100vh;
-  text-align: center; }
+  text-align: center;
+  display: none; }
 
 aside > h2 {
   font-weight: bold; }

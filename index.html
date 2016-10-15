@@ -11,14 +11,14 @@
   </head>
   <body>
     <!-- HEADER -->
-    <header class="col-lg-10 mast-head">
+    <header class="col-lg-12 mast-head">
       <div class="container">
         <div class="sub-head">
           <a href="index.html"><img class="logo" src="assets/img/Logo.png" alt="Logo Image" /></a>
           <h1>My name is Reynaldo Salcedo</h1>
-          <h2 class="i-am" id="">I am</h2>
+          <h2 class="i-am" id="iAm">I am A <span id="attr">Developer</span></h2>
         </div>
-        <button class="btn btn-side">Contact</button>
+        <button class="btn btn-side" id="contact">Contact</button>
         <nav class="main-nav">
           <ul>
             <div class="row container">
@@ -33,7 +33,7 @@
       </div>
     </header>
     <!-- SIDEBAR -->
-    <aside class="sidebar col-lg-2">
+    <aside id="sidebar" class="sidebar col-lg-2">
       <h2>Contact</h2>
       <form method="post">
         <label for="fname">First Name</label>
@@ -42,7 +42,7 @@
         <label for="lname">Last Name</label>
         <input type="text" name="lname" id="lname" />
 
-        <label for="Subject">Subject</label>
+        <label for="subject">Subject</label>
         <input type="text" name="subject" id="subject" />
 
         <label for="message">Message</label>
@@ -51,5 +51,8 @@
         <input class="btn btn-side-submit" type="submit" name="submit" id="submit" value="Send" />
       </form>
     </aside>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="assets/js/action.js"></script>
   </body>
 </html>
