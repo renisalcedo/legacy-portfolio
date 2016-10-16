@@ -18,6 +18,7 @@ $(function() {
       toggled--;
     }
     else {
+      header.removeClass(colComp);
       header.addClass(colLess);
       aside.toggle();
       toggled++;
