@@ -254,7 +254,7 @@ aside > h2 {
   padding: 15px; }
 
 section.skills {
-  background-color: #0288D1; }
+  background-color: #03A9F4; }
 
 section.skills h2 {
   font-family: "open-sans";
@@ -273,7 +273,7 @@ section.skills h2 {
   margin-top: 25px; }
 
 img.ski-ninja {
-  opacity: .2;
+  opacity: .1;
   transition: opacity .4s; }
 
 img.ski-ninja:hover {
