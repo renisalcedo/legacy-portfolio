@@ -1,0 +1,29 @@
+section.skills {
+  background-color: $primary-color-dark;
+}
+
+section.skills h2{
+  font-family: $heading-font;
+  color: $primary-text-color;
+  font-weight: bold;
+}
+
+.box,
+.box img {
+  background-color: $accent-color;
+  text-align: center;
+  border-radius: 2.5em;
+  font-size: 120%;
+  font-family: $body-font;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+img.ski-ninja {
+  opacity: .2;
+  transition: opacity .4s;
+}
+
+img.ski-ninja:hover {
+  opacity: 1;
+}
