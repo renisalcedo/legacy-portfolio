@@ -36,21 +36,13 @@ $(function() {
   }, 1500);
 
   // Dialog box
-  $( function() {
-    $( "#dialog" ).dialog({
-      autoOpen: false,
-      show: {
-      effect: "blind",
-      duration: 1000
-    },
-      hide: {
-      effect: "explode",
-      duration: 1000
+  this.tooltip({
+    show: {
+      delay: 250
     }
-    });
-      $( "#beg-js" ).on( "click", function() {
-      $( "#dialog" ).dialog( "open" );
-    });
   });
+  open: function(event, ui){
+    ui.tooltip.animate({ top: ui.tooltip.position().top + 10 }, "fast" );
+  };
 
 });
