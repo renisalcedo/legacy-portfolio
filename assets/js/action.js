@@ -25,7 +25,7 @@ $(function() {
     }
   });
 
-  // Qualities display
+  // Attributes display
   var i = 0;
   var interval = setInterval(function() {
     i++;
@@ -34,5 +34,23 @@ $(function() {
     }
     attr.text(qualities[i]);
   }, 1500);
+
+  // Dialog box
+  $( function() {
+    $( "#dialog" ).dialog({
+      autoOpen: false,
+      show: {
+      effect: "blind",
+      duration: 1000
+    },
+      hide: {
+      effect: "explode",
+      duration: 1000
+    }
+    });
+      $( "#beg-js" ).on( "click", function() {
+      $( "#dialog" ).dialog( "open" );
+    });
+  });
 
 });
