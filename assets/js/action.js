@@ -34,15 +34,4 @@ $(function() {
     }
     attr.text(qualities[i]);
   }, 1500);
-
-  // Dialog box
-  this.tooltip({
-    show: {
-      delay: 250
-    }
-  });
-  open: function(event, ui){
-    ui.tooltip.animate({ top: ui.tooltip.position().top + 10 }, "fast" );
-  };
-
 });
