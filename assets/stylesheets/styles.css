@@ -103,7 +103,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
-  background-color: #BDBDBD; }
+  background-color: #03A9F4; }
 
 ol, ul {
   list-style: none; }
@@ -144,11 +144,19 @@ h2 {
   word-spacing: 2px;
   text-align: center;
   margin-bottom: 30px;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  font-family: "open-sans";
+  color: #FFFFFF;
+  font-weight: bold; }
 
 h3 {
   font-size: 135%;
   margin-bottom: 14px; }
+
+section {
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 100%; }
 
 /* ---------- */
 /* - HEADER - */
@@ -267,12 +275,8 @@ aside > h2 {
   padding: 15px; }
 
 section.skills {
-  background-color: #03A9F4; }
-
-section.skills h2 {
-  font-family: "open-sans";
-  color: #212121;
-  font-weight: bold; }
+  background-color: #03A9F4;
+  margin-bottom: 30px; }
 
 .box,
 .box img {
@@ -291,5 +295,11 @@ img.ski-ninja {
 
 img.ski-ninja:hover {
   opacity: 1; }
+
+section.portfolio {
+  background-color: #0389DA; }
+
+.portfolio h2 {
+  margin-top: 30px; }
 
 /*# sourceMappingURL=styles.css.map */
