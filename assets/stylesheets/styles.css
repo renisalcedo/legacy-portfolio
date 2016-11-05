@@ -49,15 +49,28 @@
   padding: 0;
   box-sizing: border-box; }
 
+/* ClearFIX */
 .clearfix {
   zoom: 1; }
 
 .clearfix:after {
-  content: ".";
+  content: " ";
   clear: both;
   display: block;
   height: 0;
   visibility: hidden; }
+
+/* Group */
+.group:before,
+.group:after {
+  content: "";
+  display: table; }
+
+.group:after {
+  clear: both; }
+
+.group {
+  zoom: 1; }
 
 /* http://meyerweb.com/eric/tools/css/reset/
  * v2.0 | 20110126
