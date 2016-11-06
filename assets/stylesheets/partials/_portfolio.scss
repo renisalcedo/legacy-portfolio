@@ -5,3 +5,8 @@ section.portfolio {
 .portfolio h2 {
   margin-top: 30px;
 }
+
+.portfolio .box:nth-child(even) {
+  clear:both;
+  float: right;
+}
