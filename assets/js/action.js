@@ -34,20 +34,3 @@ $(function() {
     }
     attr.text(qualities[i]);
   }, 1500);
-
-  $( "#dialog" ).dialog({
-    autoOpen: false,
-    show: {
-      effect: "blind",
-      duration: 1000
-    },
-    hide: {
-      effect: "explode",
-      duration: 1000
-    }
-  });
-
-    $( "#tweet-box" ).on( "click", function() {
-    $( "#dialog" ).dialog( "open" );
-  });
-});

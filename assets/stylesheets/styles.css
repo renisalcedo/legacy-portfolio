@@ -302,6 +302,11 @@ section.portfolio {
 .portfolio h2 {
   margin-top: 30px; }
 
+#dialog {
+  margin: 0;
+  clear: both;
+  background-color: red; }
+
 .portfolio .box:nth-child(even) {
   clear: both;
   float: right; }
