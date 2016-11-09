@@ -1,0 +1,36 @@
+footer {
+  background-color: $primary-color;
+  margin: 20px;
+}
+
+p {
+  font-size: 120%;
+  color: $primary-text-color;
+  font-family: $body-font;
+}
+
+i.social-links {
+  font-size: 175%;
+  display: inline-block;
+  transition: color .3
+}
+
+small {
+  font-family: $heading-font;
+  display: block;
+  padding: 25px 45px 0 0;
+  margin: 30px;
+}
+
+.ion-social-github:hover {
+  color: #000;
+}
+
+.ion-social-linkedin:hover {
+  color: #1769ff;
+}
+
+.ion-social-twitter:hover {
+  color: #007ee5;
+}
+

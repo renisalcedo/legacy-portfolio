@@ -307,4 +307,33 @@ section.portfolio {
   float: right;
   margin-bottom: 20px; }
 
+footer {
+  background-color: #03A9F4;
+  margin: 20px; }
+
+p {
+  font-size: 120%;
+  color: #212121;
+  font-family: "nunito"; }
+
+i.social-links {
+  font-size: 175%;
+  display: inline-block;
+  transition: color 0.3; }
+
+small {
+  font-family: "open-sans";
+  display: block;
+  padding: 25px 45px 0 0;
+  margin: 30px; }
+
+.ion-social-github:hover {
+  color: #000; }
+
+.ion-social-linkedin:hover {
+  color: #1769ff; }
+
+.ion-social-twitter:hover {
+  color: #007ee5; }
+
 /*# sourceMappingURL=styles.css.map */
