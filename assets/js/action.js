@@ -34,3 +34,4 @@ $(function() {
     }
     attr.text(qualities[i]);
   }, 1500);
+});
