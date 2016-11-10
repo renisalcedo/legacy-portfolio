@@ -10,20 +10,25 @@ $(function() {
   var colComp = 'col-xs-12 col-sm-12 col-md-12 col-lg-12';
   var colLess = 'col-xs-10 col-sm-10 col-md-10 col-lg-10';
 
-  $('#contact').click(function() {
-    if(toggled === 1) {
-      header.removeClass(colLess);
-      header.addClass(colComp);
-      aside.toggle();
-      toggled--;
-    }
-    else {
-      header.removeClass(colComp);
-      header.addClass(colLess);
-      aside.toggle();
-      toggled++;
-    }
-  });
+  var emailMe = function(id) {
+    $(id).click(function() {
+      if(toggled === 1) {
+        header.removeClass(colLess);
+        header.addClass(colComp);
+        aside.toggle();
+        toggled--;
+      }
+      else {
+        header.removeClass(colComp);
+        header.addClass(colLess);
+        aside.toggle();
+        toggled++;
+      }
+    });
+  }
+
+  emailMe('#contact');
+  emailMe('#portfolio');
 
   // Attributes display
   var i = 0;
