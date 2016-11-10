@@ -9,5 +9,8 @@ section.portfolio {
 .portfolio .box:nth-child(even) {
   clear:both;
   float: right;
-  margin-bottom: 20px;
+}
+
+.portfolio .box:last-child {
+  margin-bottom: 45px;
 }
