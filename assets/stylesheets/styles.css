@@ -192,11 +192,11 @@ h2.i-am {
 .mast-head a .logo {
   margin-top: 25px; }
 
-.mast-head nav .logo {
+.mast-head nav .unactive-logo {
   display: none; }
 
 .active-logo {
-  margin: 0;
+  margin: 0 !important;
   width: 50%;
   display: inline; }
 
