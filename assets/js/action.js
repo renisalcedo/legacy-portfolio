@@ -52,21 +52,24 @@ $(function() {
   /* Waypoint functionality */
   /* ---------------------- */
   var navLogo = $('#nav-logo');
+  var mainNav = $('.main-nav');
 
   // Activates the logo in the nav and add the background color
   var waypoints = $('#skills-section').waypoint(function(direction) { // Trigered when get closed to skills section
     navLogo.removeClass('unactive-logo');
     navLogo.addClass('active-logo');
+    mainNav.addClass('nav-body');
   }, {
-      offset: '21%'
+      offset: '11.3%'
   })
 
   // Desactivates the logo and remove background color
   var waypoints = attr.waypoint(function(direction) { // Trigered when get closed to attributes
     navLogo.removeClass('active-logo');
     navLogo.addClass('unactive-logo');
+    mainNav.removeClass('nav-body');
   }, {
-      offset: '25%'
+      offset: '1%'
   })
 
 });
