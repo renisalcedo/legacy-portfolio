@@ -75,14 +75,20 @@ nav.nav-body {
   position: fixed;
   top: 0;
   height: 9%;
-  width: 60.6%;
+  width: 69.4em;
   padding: 0;
   z-index: 1;
-  border-radius: 5%;
+  border-radius: 25px;
+  opacity: .3;
+  transition: opacity .5s;
 }
 
 .nav-body li {
   padding: 25px 0 0 8%;
+}
+
+nav.nav-body:hover {
+  opacity: 1;
 }
 
 /* ------------------ */
