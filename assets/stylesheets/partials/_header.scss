@@ -44,13 +44,16 @@ h2.i-am {
 
 .active-logo {
   margin: 0 !important;
-  width: 50%;
+  width: 60%;
   display: inline;
 }
 
-/* ---------- */
-/* -- NAV --- */
-/* ---------- */
+/* ----------------- */
+/* -- NAV HEADER --- */
+/* ----------------- */
+nav {
+  position: relative;
+}
 .sub-head {
   padding-right: 8.5em;
 }
@@ -63,29 +66,56 @@ nav.main-nav {
   margin-bottom: 4em;
 }
 
-/* ---------- */
-/* --LINKS -- */
-/* ---------- */
+/* ----------------- */
+/* --- NAV BODY ---- */
+/* ----------------- */
+
+nav.nav-body {
+  background-color: $primary-color-text;
+  position: fixed;
+  top: 0;
+  height: 9%;
+  width: 60.6%;
+  padding: 0;
+  z-index: 1;
+  border-radius: 5%;
+}
+
+.nav-body li {
+  padding: 25px 0 0 8%;
+}
+
+/* ------------------ */
+/* -- LINKS HEADER -- */
+/* ------------------ */
 .mast-head li a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 155%;
-  transition: border-bottom .2s, color .2s;
+  transition: color .2s;
 }
 .main-nav a:link,
 .main-nav a:visited {
   color: $secondary-text-color;
-  transition: color .2s, border-bottom .2s;
+  transition: color .2s;
 }
 .main-nav a:hover,
 .main-nav a:active,
 .selected {
   color: $primary-color-text;
-  border-bottom: 2px solid $primary-color-text;
 }
 
 /* ------------------ */
-/* - Sidebar-button - */
+/* -- LINKS BODY -- */
+/* ------------------ */
+.nav-body a:hover,
+.nav-body a:active,
+.selected {
+  color: $divider-color;
+}
+
+/* ------------------ */
+/* - Sidebar button - */
 /* ------------------ */
 .btn.btn-side {
   color: $secondary-text-color;
