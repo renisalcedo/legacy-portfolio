@@ -168,6 +168,7 @@ header {
   font-weight: 300;
   text-align: center;
   background: -webkit-linear-gradient(to left, #03A9F4, #0288D1);
+  background: -webkit-linear-gradient(right, #03A9F4, #0288D1);
   background: linear-gradient(to left, #03A9F4, #0288D1);
   height: 100vh;
   margin-bottom: 20px; }
@@ -229,6 +230,7 @@ nav.nav-body {
   z-index: 1;
   border-radius: 25px;
   opacity: .3;
+  -webkit-transition: opacity .5s;
   transition: opacity .5s; }
 
 .nav-body li {
@@ -244,11 +246,13 @@ nav.nav-body:hover {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 155%;
+  -webkit-transition: color .2s;
   transition: color .2s; }
 
 .main-nav a:link,
 .main-nav a:visited {
   color: #555;
+  -webkit-transition: color .2s;
   transition: color .2s; }
 
 .main-nav a:hover,
@@ -322,6 +326,7 @@ section.skills {
 
 img.ski-ninja {
   opacity: .1;
+  -webkit-transition: opacity .4s;
   transition: opacity .4s; }
 
 img.ski-ninja:hover {
@@ -352,6 +357,7 @@ p {
 i.social-links {
   font-size: 175%;
   display: inline-block;
+  -webkit-transition: color 0.3;
   transition: color 0.3; }
 
 small {
@@ -368,5 +374,3 @@ small {
 
 .ion-social-twitter:hover {
   color: #007ee5; }
-
-/*# sourceMappingURL=styles.css.map */
